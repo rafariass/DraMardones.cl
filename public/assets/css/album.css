@@ -1,12 +1,21 @@
-body{
+@font-face {
+  font-family: 'JetBrainsMono-Regular';
+  src: url('/assets/font/JetBrainsMono-2.225/JetBrainsMono-Regular.woff2');
+}
+
+body {
   margin-top: 5rem;
+}
+
+.rafariass {
+  font-family: 'JetBrainsMono-Regular';
 }
 
 .navbar-shadow {
   -webkit-border-radius: 0px 0px 175px 175px / 0px 0px 20px 20px;
   -moz-border-radius: 0px 0px 175px 175px / 0px 0px 20px 20px;
   border-radius: 0px 0px 175px 175px / 0px 0px 0px 0px;
-  
+
   -webkit-box-shadow: 0px 0px 20px 5px rgba(255, 193, 7, 0.5);
   -moz-box-shadow: 0px 0px 20px 5px rgba(255, 193, 7, 0.5);
   box-shadow: 0px 0px 20px 5px rgba(255, 193, 7, 0.5);
@@ -34,7 +43,7 @@ body{
 }
 
 .display-jumbotron {
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -47,7 +56,7 @@ body{
 }
 
 .display-jumbotron2 {
-  font-size: 2rem; 
+  font-size: 2rem;
   font-weight: 300;
   line-height: 1.2;
 }

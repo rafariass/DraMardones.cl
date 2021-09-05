@@ -22,6 +22,8 @@ app.use(expresFileUpload(config.fileUpload));
 app.use('/', express.static(config.static)); // Static Files
 
 // Routes
-/* app.use(); */
+app.all('*', (req, res) => {
+  res.render('errors/404')
+});
 
 module.exports = { app };
