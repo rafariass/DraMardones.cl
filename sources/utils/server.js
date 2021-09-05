@@ -22,6 +22,30 @@ app.use(expresFileUpload(config.fileUpload));
 app.use('/', express.static(config.static)); // Static Files
 
 // Routes
+
+app.get('/', (req, res) => {
+  res.render('web/index')
+});
+app.get('/patologias', (req, res) => {
+  res.render('web/index')
+});
+app.get('/cirugias', (req, res) => {
+  res.render('web/index')
+});
+app.get('/introduccion', (req, res) => {
+  res.render('web/index')
+});
+app.get('/procedimientos', (req, res) => {
+  res.render('web/index')
+});
+app.get('/contactenos', (req, res) => {
+  res.render('web/contactenos')
+});
+
+
+
+
+
 app.get('/500', (req, res) => {
   res.render('errors/500')
 });
